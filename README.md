@@ -16,7 +16,10 @@ This project is a machine learning-based application that detects facial express
 - Provides a graphical user interface built with Tkinter.
 
 ## Folder Structure
-. ├── emoji.py # Main script for real-time emotion detection and emoji display ├── model.h5 # Pre-trained model weights ├── train.py # Script for training the emotion detection model └── emojis/ # Folder containing emoji images for each emotion
+. ├── emoji.py # Main script for real-time emotion detection and emoji display 
+  ├── model.h5 # Pre-trained model weights 
+  ├── train.py # Script for training the emotion detection model 
+  └── emojis/ # Folder containing emoji images for each emotion
 
 
 ## Prerequisites
