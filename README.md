@@ -1,6 +1,5 @@
 
 
-```markdown
 # Facial Expression to Emoji/Avatar Converter
 
 This project is a machine learning-based application that detects human facial expressions in real-time using a webcam and converts them into corresponding emojis or avatars. It uses a Convolutional Neural Network (CNN) model trained to classify facial expressions into seven categories: Angry, Disgusted, Fearful, Happy, Neutral, Sad, and Surprised.
@@ -47,9 +46,9 @@ This project is a machine learning-based application that detects human facial e
   - `pillow`
 
 Install all dependencies using:
-```bash
+
 pip install -r requirements.txt
-```
+
 
 ---
 
@@ -59,9 +58,9 @@ pip install -r requirements.txt
    - Ensure images are grayscale and organized by emotion category.
 
 2. Run the training script:
-   ```bash
+
    python train.py
-   ```
+
    - This will train the CNN model and save the weights in `model.h5`.
 
 ---
@@ -70,9 +69,9 @@ pip install -r requirements.txt
 1. Ensure the `model.h5` file is in the project directory.
 2. Add emoji images to the `emojis/` directory with filenames matching the emotions.
 3. Run the application script:
-   ```bash
+
    python emoji.py
-   ```
+
    - The application will open a GUI displaying the video feed, predicted emotions, and corresponding emojis.
 
 ---
